@@ -1,6 +1,8 @@
 # React date-range app
 
-In this repo, I will develop a date-range field wrapper on top of [airbnb/react-dates](https://github.com/airbnb/react-dates).
+In this repo, I will develop a date-range field wrapper on top of [Hacker0x01/react-datepicker](https://github.com/Hacker0x01/react-datepicker).
+
+[http://react-date-range-2.surge.sh](http://react-date-range-2.surge.sh)
 
 ---
 
@@ -23,9 +25,9 @@ yarn run eject
 
 ---
 
-## Install react-dates
-- [airbnb/react-dates](https://github.com/airbnb/react-dates)
+## Dependencies
+For simplicity, I load jquery and toastr via CDN and use them through global `window` object.
 
-```
-(export PKG=react-dates; sudo npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g; s/ *//g' | xargs sudo npm install --save "$PKG";)
-```
+- [Hacker0x01/react-datepicker](https://github.com/Hacker0x01/react-datepicker)
+- [CodeSeven/toastr](https://github.com/CodeSeven/toastr)
+- jquery
